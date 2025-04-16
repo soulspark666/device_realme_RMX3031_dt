@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/alps/oppo6893
+LOCAL_PATH := device/alps/cupida

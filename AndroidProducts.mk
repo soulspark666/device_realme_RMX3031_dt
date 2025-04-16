@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_oppo6893.mk
+    $(LOCAL_DIR)/twrp_cupida.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_oppo6893-user \
-    omni_oppo6893-userdebug \
-    omni_oppo6893-eng
+    twrp_cupida-user \
+    twrp_cupida-userdebug \
+    twrp_cupida-eng

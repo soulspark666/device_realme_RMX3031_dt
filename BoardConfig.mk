@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/alps/oppo6893
+DEVICE_PATH := device/alps/cupida
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -26,7 +26,7 @@ TARGET_BOARD_SUFFIX := _64
 TARGET_USES_64_BIT_BINDER := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := oppo6893
+TARGET_OTA_ASSERT_DEVICE := cupida
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -57,8 +57,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/alps/oppo6893
-TARGET_KERNEL_CONFIG := oppo6893_defconfig
+TARGET_KERNEL_SOURCE := kernel/alps/cupida
+TARGET_KERNEL_CONFIG := cupida_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6893
